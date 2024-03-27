@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
+
+</head>
+<body>
+    <div class="navAndOverview">
+     <nav class="navbar navbar-expand-lg p-0">
+        <div class="one px-3 d-none d-lg-block"><i class="fa-solid fa-magnifying-glass text-white"></i>
+        </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars text-white  fs-1"></i>
+          </button>
+          <div class="collapse navbar-collapse navLinkContainer pb-2" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 container justify-content-center">
+              <li class="nav-item ms-4 ms-md-0">
+                <a class="nav-link active text-white" aria-current="page" href="#">HOME</a>
+              </li>
+              <li class="nav-item ms-4 ms-md-0">
+                <a class="nav-link text-white" href="#">ABOUT</a>
+              </li>
+              <li class="nav-item ms-4 ms-md-0">
+                <a class="nav-link text-white" href="">TAKE ACTION</a>
+              </li>
+              <li class="nav-item position-relative">
+                <a class="nav-link active text-white ms-4 ms-md-0" aria-current="page" href="#">CORONA</a>
+                <div class="virus position-absolute bottom-0 start-50 text-center d-none d-lg-block">
+                    <img src="./images/virus.png" alt="">
+                </div>
+              </li>
+              <li class="nav-item ms-4 ms-md-0">
+                <a class="nav-link text-white" href="#">NEWS</a>
+              </li>
+              <li class="nav-item ms-4 ms-md-0">
+                <a class="nav-link text-white" href="#">DOCTORS</a>
+              </li> 
+              <li class="nav-item ms-4 ms-md-0">
+                <a class="nav-link text-white" href="#">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        <div class="one user px-3 d-none d-lg-block"><i class="fa-solid fa-user text-white"></i></div>
+      </nav>
+   <div class="homeSectionContent position-relative d-flex flex-column align-items-center align-items-lg-start">
+          <div class="headingContainer mb-5">
+              <h1 class="homeSectionHeading">Care early</h1>
+              <h1 class="homeSectionHeading">Coronavirus</h1>
+          </div>
+          <div class="homeSectionBtnContainer d-flex">
+              <button class="readMoreBtn aboutBtn Btn px-4 py-1 me-2 rounded-0">Read More</button>
+              <button class="aboutUsBtn aboutBtn border border-dark border-lg-0 Btn bg-white px-4 py-1 rounded-0">About us</button>
+          </div>
+          <div class="homeSectionArrows leftArrow position-absolute top-50 start-0 d-flex align-items-center">
+            <i class="ri-arrow-left-s-line text-white"></i>
+          </div>
+          <div class="homeSectionArrows rightArrow position-absolute top-50 end-0 d-flex justify-content-end align-items-center">
+            <i class="ri-arrow-right-s-line text-white"></i>
+          </div>
+    </div>
+  </div>
+  <div class="aboutCoronaVirusContainer  w-80 px-5 py-4 m-auto shadow">
+      <div class="aboutCorona d-flex flex-column-reverse flex-md-row ">
+          <div class="aboutContent d-flex flex-column justify-content-center align-items-center align-items-md-start">
+              <h2 class="aboutSectionHeading m-1 d-none d-md-block">About Corona Virus</h2>
+              <div class="aboutbottomBar rounded d-none d-md-block"></div>
+              <div class="coronaImageContainerMobile d-none">
+                  <img src="./public/images/about.png" alt="coronaImage" class="fullWidth">
+              </div>
+              <p class="aboutCoronaDescription pt-3">
+                  English. Many desktop publishing packages and web page editors now use Lorem ipsum as their default model text, and a search for
+              </p>
+              <button class="readMoreAboutCoronaBtn Btn rounded-0 mt-2">Read More</button>
+          </div>
+          <div class="coronaImageContainer position-relative ps-4 pb-5 d-flex flex-column align-items-center align-items-md-start">
+                   <h2 class="aboutSectionHeading m-1 d-block d-md-none">About Corona Virus</h2>
+                   <div class="aboutbottomBar rounded d-block d-md-none  mb-4"></div>
+                  <img src="./images/55b8ded81cec1583268204-co.png"  alt="coronaImage" class="coronaImage pe-4">
+                  <img src="./images/55b8ded81cec1583268204-co_2.png" class="position-absolute bottom-0 start-0 coronSmallImage d-none d-md-block" alt="">
+          </div>
+      </div>
+  </div>
+  <div class="whatIsCorona pb-4 w-80 mt-5 mt-lg-0">
+    <div class="coronaSymptoms  row gx-4">
+      <div class="col-md-6 col-12 text-center d-flex align-items-center">
+          <img src="./images/layer_9.png" alt="coronaImage" class="coronaSymtomsFigure w-100">
+      </div>
+      <div class="coronaDescription col-md-5 col-12  pe-4 d-flex flex-column align-items-center align-items-md-start">
+          <h2 class="aboutSectionHeading lineHeightOne m-0">CORONAVIRUS</h2>
+          <h2 class="aboutSectionHeading lineHeightOne">WHAT IT IS?</h2>
+          <p>when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using</p>
+          <button class="readMoreAboutCoronaBtn Btn rounded-0 px-2  py-2">Read More</button>
+      </div>
+  </div>
+</div>
+<div class="preventionSection paddingTop text-center py-5">
+  <div class="preventionTop m-auto">
+      <h2 class="heading ">How to protect yourself</h2>
+      <p class="preventionDesc">when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using</p>
+  </div>
+
+  <div class="preventionsContainer mx-lg-5 position-relative">
+      <div class="preventions w-80 m-auto  text-center d-flex align-items-center h-100 ">
+          <div class="preventionsCards row gx-3">
+              <div class="preventionCard col-lg-4 col-12">
+                  <div class="preventionDetails shadow bg-white rounded px-4 pt-5 pb-2">
+                      <div class="preventionImageContainer">
+                          <img src="./images/sick.png" class="preventImage" alt="image">
+                      </div>
+                      <h5 class="prevention">Wear Mark</h5>
+                      <p class="preventionDesc">Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for</p>
+                  </div>
+
+                  <button class="readMoreAboutCoronaBtn Btn rounded-0 mt-4">Read More</button>
+              </div>
+
+              <div class="preventionCard col-lg-4 py-5 py-lg-0  col-12">
+                  <div class="preventionDetails  shadow bg-white rounded px-4 pt-5 pb-2">
+                      <div class="preventionImageContainer">
+                          <img src="./images/hand-wash.png" class="preventImage" alt="image">
+                      </div>
+                      <h5 class="prevention">Wash Your Hands</h5>
+                      <p class="preventionDesc">Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for</p>
+                  </div>
+
+                  <button class="readMoreAboutCoronaBtn Btn rounded-0 mt-4" id="secondeReadMoreBtn">Read More</button>
+              </div>
+
+              <div class="preventionCard col-lg-4  col-12">
+                  <div class="preventionDetails shadow bg-white rounded px-4 pt-5 pb-2">
+                      <div class="preventionImageContainer">
+                          <img src="./images/real-estate.png" class="preventImage" alt="image">
+                      </div>
+                      <h5 class="prevention">Stay at Home</h5>
+                      <p class="preventionDesc">Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for</p>
+                  </div>
+                  <button class="readMoreAboutCoronaBtn Btn rounded-0 mt-4">Read More</button>
+              </div>            
+      </div>
+      <div class="preventionArrows d-none d-lg-block">
+          <button class="preventionArrow position-absolute bottom-0 end-50 Btn d-flex justify-content-center bg-white align-items-center"><i class="fa-solid fa-arrow-left"></i></button>
+          <button class="preventionArrow position-absolute bottom-0 start-50 ms-2 Btn d-flex justify-content-center align-items-center "><i class="fa-solid fa-arrow-right"></i></button>
+      </div>
+  </div>
+  </div>
+  </div>
+
+
+  <div class="cases text-center mx-lg-5 my-lg-5">
+    <div class="casesTop m-auto">
+        <h3 class="heading">Coronavirus cases</h3>
+        <p class="m-0">It is a long established fact that a reader will be distracted by the readable content of a page when looking at </p> 
+            <p class="m-0">its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as </p> 
+            <p>opposed to using 'Content here, content here', making it look</p>
+    </div> 
+
+    <div class="casescardsContainer m-auto pb-5 pb-lg-0">
+        <div class="casesCards row gx-3">
+            <div class="caseCardContainer col-lg-4 col-12 position-relative">
+                <div class="caseCard shadow p-3">
+                    <div class="caseCardImageContainer position-relative">
+                        <img src="./images/coronavirus-4914028_1920.png" class="caseImage" alt="case1">
+                        <button class="cardReadMoreBtn caseBtn d-none position-absolute top-50 start-50 translate-middle Btn readMoreBtn rounded-0">READ MORE</button>
+                    </div>
+
+                    <div class="caseDescContainer px-4">
+                        <h5 class="pt-4">Cases 01</h5>
+                        <p class="preventionDesc">
+                            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look
+                        </p>
+                    </div>
+                </div>
+
+                <div class="position-absolute top-100 start-50 translate-middle">
+                    <img src="./images/corona-4919644.png" alt="coronaIcon" class="coronaIcon">
+                </div>
+            </div>
+            <div class="caseCardContainer col-lg-4 col-12 my-5 my-lg-0 position-relative">
+                <div class="caseCard shadow p-3">
+                    <div class="caseCardImageContainer position-relative">
+                        <img src="./images/coronavirus-4957673_1920_3.png" class="caseImage" alt="case2">
+                        <button class="cardReadMoreBtn caseBtn d-none position-absolute top-50 start-50 translate-middle Btn readMoreBtn rounded-0">READ MORE</button>
+                    </div>
+                    <div class="caseDescContainer px-4">
+                        <h5 class="pt-4">Cases 02</h5>
+                        <p class="preventionDesc">
+                            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look
+                        </p>
+                    </div>
+                </div>
+                <div class="position-absolute top-100 start-50 translate-middle">
+                    <img src="./images/corona-4919644.png" alt="coronaIcon" class="coronaIcon">
+                </div>
+            </div>
+            <div class="caseCardContainer col-lg-4 col-12 position-relative">
+                <div class="caseCard shadow p-3">
+                    <div class="caseCardImageContainer position-relative">
+                        <img src="./images/virus-4931227_1920.png" class="caseImage" alt="case3">
+                        <button class="cardReadMoreBtn caseBtn d-none position-absolute top-50 start-50 translate-middle Btn readMoreBtn rounded-0">READ MORE</button>
+                    
+                    </div>
+
+                    <div class="caseDescContainer px-4">
+                        <h5 class="pt-4">Cases 03</h5>
+                        <p class="preventionDesc">
+                            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look
+                        </p>
+                    </div>
+                </div>
+                <div class="position-absolute top-100 start-50 translate-middle">
+                    <img src="./images/corona-4919644_copy.png" alt="coronaIcon"  class="coronaIcon">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+ <div class="doctorAdvice py-5  ">
+  <div class="adviceSection m-auto">
+      <h3 class="heading text-center">WHAT DOCTORS SAY..</h3>
+      <div class="advices d-flex justify-content-center   pt-5">
+          <div class="advicesContainer container-fluid row gx-lg-3 gx-0 justify-content-center">
+              <div class="adviceCard col-12 col-sd-5 col-lg-4 text-center mb-4 mb-lg-0">
+                <div class="shadow p-4 position-relative">
+                  <div class="imageContainer position-absolute top-0 start-50 translate-middle"><img src="./images/ellipse_7_copy.png" alt="doctorsImage" class="doctorImage" srcset="">
+                  </div>
+                  <div class="doctorsDetails  dFlexCol pt-4">
+                      <h5 class="doctorsNames upperCase">DR. GOLAP DEN</h5>
+                      <p class="preventionDesc" style="font-size: .85rem;">
+                          It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look
+                      </p>
+  
+                      <div class="commaContainer">
+                          <i class="fa fa-quote-left" aria-hidden="true"></i>
+                      </div>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="adviceCard col-12 col-sd-5 col-lg-4 text-center mt-5 mt-lg-0">
+                  <div class="shadow p-4 position-relative">
+                  <div class="imageContainer position-absolute top-0 start-50 translate-middle"><img src="./images/ellipse_7.png" alt="doctorsImage" class="doctorImage" srcset="">
+                  </div>
+                  <div class="doctorsDetails  dFlexCol pt-4">
+                      <h5 class="doctorsNames" >DR. GOLAP DEN</h5>
+                      <p class="preventionDesc" style="font-size: .85rem;">
+                          It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look
+                      </p>
+  
+                      <div class="commaContainer">
+                          <i class="fa fa-quote-left" aria-hidden="true"></i>
+                      </div>
+
+                  </div>
+              </div>
+              </div>
+
+               
+
+          </div>
+      </div>
+  </div>
+</div>
+<div class="updates text-center ">
+<h3 class="updateHeading heading pt-5 pb-4">GET EVERY UPDATE...</h3>
+
+<div class="update pt-5 pb-4">
+  <div class="formContainer">
+      <form action="#" class="d-flex flex-column align-items-center">
+          <input type="email" placeholder="YOUR EMAIL" class="col-8 ps-4 emailInput">
+          <button class="col-8 updateBtn Btn readMoreAboutCoronaBtn py-2 my-4">Subscribe Now</button>
+      </form>
+  </div>
+</div>
+</div>
+<div class="footerContainer container-fluid bg-black d-flex justify-content-end text-white py-3 ">
+  <div class="footer row w-85 m-0 pt-5 gap-lg-0 gap-4">
+    <div class="col-1 d-none d-lg-block"></div>
+      <div class="footerCol col-lg-2 col-12 d-flex flex-column align-items-center align-items-lg-start">
+          <h5>RESOURCES</h5>
+          <a href="#" class="text-white">What we do</a>
+          <a href="#" class="text-white">Media</a>
+          <a href="#" class="text-white">Travel Advice</a>
+          <a href="#" class="text-white">Protection</a>
+          <a href="#" class="text-white">Care</a>
+      </div>
+      <div class="footerCol col-md-3 col-5 m-auto m-lg-auto text-center text-lg-start ">
+          <h5>ABOUT</h5>
+          <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various</p>
+      </div>
+      <div class="footerCol col-lg-3 col-12 ps-lg-5 m-lg-auto text-center text-lg-start">
+          <h5>CONTACT US</h5>
+          <p> <i class="fa fa-map-marker" aria-hidden="true"></i> Making this the first true</p>
+          <p> <i class="fa fa-phone" aria-hidden="true"></i>Call: +01 1234567890</p>
+          <p> <i class="fa fa-envelope" aria-hidden="true"></i>Email:demo@gmail</p>
+      </div>
+      <div class="footerCol col-lg-3 col-12 m-lg-auto text-center text-lg-start">
+          <h5>COUNTRYS</h5>
+          <div class="mapContainer">
+              <img src="./images/clipart-map-flat-world-6.png" alt="map" class="w-100">
+          </div>
+      </div>
+  </div>
+</div>
+<div class="copyRight text-center bg-black text-white">
+
+  © 2020 All Rights Reserved. Design by Free Html Templates
+  
+</div> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body> 
+</html>
