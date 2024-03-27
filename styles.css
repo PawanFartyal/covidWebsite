@@ -90,10 +90,21 @@ nav ul {
 .coronSmallImage {
     width: 4rem;
 }
+.preventionDetails:hover, .readMoreBtn:hover, .readMoreAboutCoronaBtn:hover, .aboutUsBtn:hover {
+      transform: scale(1.1);
+      transition: all 5ms ease;
+}
+.adviceCard:hover ,a:hover{
+    transform: scale(1.05);
+    transition: all 5ms ease;
+}
 .aboutbottomBar {
     width: 4rem;
     height: 6px;
     background:var(--red);
+}
+.doctorsDetails .preventionDesc{
+    font-size: .85rem;
 }
 .readMoreAboutCoronaBtn {
     background-color:#05254D;
@@ -175,6 +186,9 @@ nav ul {
     .footer {
         width: 100%;
     }
+    .caseImage {
+        height: auto;
+    }
     .aboutCoronaVirusContainer {
         width: 90%;
     }
@@ -185,6 +199,9 @@ nav ul {
     }
     .updateBtn {
         width: 40%;   
+    }
+    .textJustify {
+        text-align: justify !important;
     }
     .homeSectionHeading {
         font-size: 2.5rem;
